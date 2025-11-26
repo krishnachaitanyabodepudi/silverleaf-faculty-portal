@@ -18,16 +18,6 @@
 
 <div align="center" style="font-size:17px; font-weight:600; margin-bottom:12px;">
 
-[Executive Summary](#executive-summary) •  
-[Problem Context](#problem-context--stakeholder-perspectives) •  
-[Research & Insights](#research--insights) •  
-[Proposed Solution](#proposed-solution) •  
-[Enterprise Architecture](#enterprise-architecture) •  
-[Data Design](#data-design) •  
-[Dashboard](#dashboard) •  
-[Ethics](#ethical--social-considerations) •  
-[Outcomes](#outcomes-impact--next-steps) •  
-[Team Reflection](#team-reflection)
 
 </div>
 
