@@ -1,3 +1,15 @@
+[Home](index.md) • 
+[Problem Context](problem.md) • 
+[Research & Insights](insights.md) • 
+[Proposed Solution](solution.md) • 
+[Architecture](architecture.md) • 
+[Data Structure](data.md) • 
+[Dashboard](dashboard.md) • 
+[Ethics](ethics.md) • 
+[Outcomes](outcomes.md) • 
+[Team Reflection](team.md)
+
+---
 # Ethical & Social Considerations
 
 Ethical concerns guided the solution from the start. The system emphasizes:  
