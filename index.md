@@ -1,22 +1,25 @@
-# Silver Leaf University – Faculty & Student Portal
+# Silver Leaf University – Faculty & Student Portal  
+### Team 4: Modern Research Pioneers
 
-**Team**: Silver Leaf Innovators  
-**Members**: Member 1, Member 2, Member 3, Member 4, Member 5  
+**Team Members:**  
+Akshaya Cheruku • Gowri Bhavani Bommareddy • Krishna Chaitanya Bodepudi • Krishna Chaitanya Nizam • Sai Tulasi Akarapu  
 
-**Live Prototype**:  
-[https://faculty-portal-mrp.vercel.app](https://faculty-portal-mrp.vercel.app)
+**Live Prototype:**  
+🔗 https://faculty-portal-mrp.vercel.app  
 
-**Application Code (GitHub)**:  
-[https://github.com/krishnachaitanyabodepudi/faculty-Portal-MRP](https://github.com/krishnachaitanyabodepudi/faculty-Portal-MRP)
+**Application Code (GitHub):**  
+🔗 https://github.com/krishnachaitanyabodepudi/faculty-Portal-MRP  
 
 ---
 
 ## Executive Summary
 
-Silver Leaf University currently manages courses, assignments, submissions, and feedback through a mix of email, spreadsheets, and scattered LMS exports. Faculty waste time hunting for information, students are unsure about deadlines and feedback, and administrators have limited visibility into how students are performing across the program.
+Silver Leaf University currently manages courses, assignments, announcements, and student communication through disconnected systems such as email threads, shared drives, spreadsheets, and isolated LMS exports. These scattered workflows create delays, reduce clarity, and make it difficult for faculty, students, and administrators to maintain consistent visibility into academic progress.
 
-Our project delivers a unified **Faculty & Student Portal** that centralizes these flows. Faculty can log in, see all their courses, create and delete assignments, run AI‑assisted feedback analysis on student submissions, post course‑specific announcements, and communicate with students through a built‑in mailbox. Students see a clear dashboard of their enrolled courses, submit assignments as PDFs, check submission status, read announcements, and send mail to faculty or support.
+Our project presents a unified **Faculty & Student Portal** designed to consolidate these processes into a single, role-based platform. Faculty receive a structured view of all their courses, can create and manage assignments, track submissions, publish announcements, and communicate directly with students through an integrated mailbox. The system also includes an **AI-powered Feedback Analyzer** using Google Gemini 2.0 Flash, enabling faculty to generate quick, high-quality feedback summaries from student submissions.
 
-Technically, the prototype is built with **Next.js** (full‑stack React), **TypeScript**, **Tailwind + shadcn/ui** for the interface, and **Google Gemini 2.0 Flash** for the chatbot and feedback analysis. Data is stored in structured JSON files under a `dataset/` folder which behave like a lightweight database for this Master’s Research Project. Submissions are saved as PDFs with extracted text; announcements and mailbox messages are tracked as records in a dedicated JSON collection.
+Students benefit from a simplified dashboard showing enrolled courses, assignment deadlines, submission history, announcements, and a built-in messaging channel to reach faculty or support. All submissions are uploaded as PDFs, automatically stored alongside extracted text for analysis and indexing.
 
-The portal demonstrates how a university can move from fragmented, manual workflows to a single, role‑aware interface. It showcases end‑to‑end architecture, data design, dashboards, and AI integration that support faculty workload, improve feedback quality, and give students a more transparent and consistent experience.
+The portal is built using **Next.js**, **TypeScript**, **TailwindCSS**, and **shadcn/ui**, with structured JSON datasets that act as a lightweight database for the purposes of this Master's Research Project. This architecture demonstrates end-to-end integration of UI, data storage, file handling, and AI-driven analysis.
+
+Overall, this project shows how universities can transition from fragmented processes to a centralized digital experience that improves faculty productivity, enhances feedback quality, and provides students with a more transparent and consistent academic workflow.
