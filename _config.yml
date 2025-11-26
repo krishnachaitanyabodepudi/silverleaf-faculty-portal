@@ -1,14 +1,3 @@
 theme: jekyll-theme-slate
 title: "Silver Leaf University – Faculty & Student Portal"
-logo: /assets/Logo.png
-header_pages:
-  - index.md
-  - problem.md
-  - insights.md
-  - solution.md
-  - architecture.md
-  - data.md
-  - dashboard.md
-  - ethics.md
-  - outcomes.md
-  - team.md
+description: "Master's Research Project – Team 4"
