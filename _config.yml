@@ -1,0 +1,19 @@
+
+
+title: "Silver Leaf University – Faculty & Student Portal"
+logo: /assets/Logo.png
+theme: minima
+
+minima:
+  skin: classic  
+
+header_pages:
+  - index.md
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Ensure assets load correctly
+include:
+  - assets
