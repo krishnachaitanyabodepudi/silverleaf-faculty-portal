@@ -14,12 +14,18 @@ Akshaya Cheruku • Gowri Bhavani Bommareddy • Krishna Chaitanya Bodepudi • 
 
 ## Executive Summary
 
-Silver Leaf University currently manages courses, assignments, announcements, and student communication through disconnected systems such as email threads, shared drives, spreadsheets, and isolated LMS exports. These scattered workflows create delays, reduce clarity, and make it difficult for faculty, students, and administrators to maintain consistent visibility into academic progress.
+The **Silver Leaf University Faculty & Student Portal** is a unified academic management system built to streamline key workflows for Admins, Faculty, and Students. The platform brings together course management, assignment submission, communication, and AI-powered support in one centralized portal.
 
-Our project presents a unified **Faculty & Student Portal** designed to consolidate these processes into a single, role-based platform. Faculty receive a structured view of all their courses, can create and manage assignments, track submissions, publish announcements, and communicate directly with students through an integrated mailbox. The system also includes an **AI-powered Feedback Analyzer** using Google Gemini 2.0 Flash, enabling faculty to generate quick, high-quality feedback summaries from student submissions.
+**Admins** can create courses and assign them to specific faculty members.  
+**Faculty** can log in to view all their assigned courses, post new assignments, track student submissions, publish announcements, and respond to student messages through an integrated mailbox system.  
+**Students** can view enrolled courses, check assignment deadlines, submit their work as PDFs, read announcements, and communicate directly with faculty or support.
 
-Students benefit from a simplified dashboard showing enrolled courses, assignment deadlines, submission history, announcements, and a built-in messaging channel to reach faculty or support. All submissions are uploaded as PDFs, automatically stored alongside extracted text for analysis and indexing.
+A major highlight of the portal is its **AI integration** powered by the **Google Gemini API**. The system includes:  
+- **Course-Aligned AI Assistant** that answers student and faculty questions related to a specific course’s syllabus and content.  
+- **AI Feedback Analyzer** that reviews student submissions and provides the **first level of automated grading feedback**, helping faculty save time and maintain consistency in evaluation.
 
-The portal is built using **Next.js**, **TypeScript**, **TailwindCSS**, and **shadcn/ui**, with structured JSON datasets that act as a lightweight database for the purposes of this Master's Research Project. This architecture demonstrates end-to-end integration of UI, data storage, file handling, and AI-driven analysis.
+The portal is built using **Next.js**, **TypeScript**, **TailwindCSS**, and **shadcn/ui** for a modern and responsive user interface. All data—such as faculty profiles, course details, assignments, announcements, and student submissions—is stored in structured JSON datasets designed for this Master’s Research Project. Uploaded submissions are processed as PDFs, with extracted textual content analyzed through the Gemini API for feedback generation.
 
-Overall, this project shows how universities can transition from fragmented processes to a centralized digital experience that improves faculty productivity, enhances feedback quality, and provides students with a more transparent and consistent academic workflow.
+This project demonstrates a complete end-to-end academic workflow platform supported by clean UI design, structured data modeling, assignment tracking, and AI-powered grading tools tailored for Silver Leaf University.
+
+---
