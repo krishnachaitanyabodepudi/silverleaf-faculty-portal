@@ -1,3 +1,15 @@
+[Home](index.md) • 
+[Problem Context](problem.md) • 
+[Research & Insights](insights.md) • 
+[Proposed Solution](solution.md) • 
+[Architecture](architecture.md) • 
+[Data Structure](data.md) • 
+[Dashboard](dashboard.md) • 
+[Ethics](ethics.md) • 
+[Outcomes](outcomes.md) • 
+[Team Reflection](team.md)
+
+---
 # Silver Leaf University – Faculty & Student Portal  
 ### Team 4: Modern Research Pioneers  
 Akshaya Cheruku • Gowri Bhavani Bommareddy • Krishna Chaitanya Bodepudi • Krishna Chaitanya Nizam • Sai Tulasi Akarapu  
