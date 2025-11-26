@@ -1,3 +1,16 @@
+[Home](index.md) • 
+[Problem Context](problem.md) • 
+[Research & Insights](insights.md) • 
+[Proposed Solution](solution.md) • 
+[Architecture](architecture.md) • 
+[Data Structure](data.md) • 
+[Dashboard](dashboard.md) • 
+[Ethics](ethics.md) • 
+[Outcomes](outcomes.md) • 
+[Team Reflection](team.md)
+
+---
+
 # Problem Context & Stakeholder Perspectives
 
 Silverleaf University is facing challenges in modernizing academic workflows. The institution aims to integrate new teaching technologies, improve faculty support, and strengthen the connection between course design and AI-assisted learning. Many faculty members feel overwhelmed by administrative tasks and say they lack AI tools tailored to their course needs or tools that remain private within the university environment. :contentReference[oaicite:3]{index=3}
