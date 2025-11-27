@@ -3,6 +3,33 @@
 <p align="center">
   <img src="assets/Logo.png" width="350">
 </p>
+<style>
+  /* Global font size increase */
+  body, p, li, div, span {
+    font-size: 19px !important;   /* change to 20px, 21px if needed */
+    line-height: 1.8 !important;
+  }
+
+  /* Headings */
+  h1 {
+    font-size: 40px !important;
+    margin-top: 40px !important;
+  }
+  h2 {
+    font-size: 32px !important;
+    margin-top: 35px !important;
+  }
+  h3 {
+    font-size: 26px !important;
+    margin-top: 30px !important;
+  }
+
+  /* Slightly increase width of content */
+  .container, .inner, .markdown-body {
+    font-size: 19px !important;
+  }
+</style>
+
 
 <h1 align="center" style="color:#003366; font-size: 36px; margin-bottom:0;">
   Silver Leaf University – Faculty & Student Portal
