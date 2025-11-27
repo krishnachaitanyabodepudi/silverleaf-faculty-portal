@@ -1,38 +1,45 @@
-<style>
+
  
 <p align="center">
   <img src="assets/Logo.png" width="350">
 </p>
 <style>
-  
+  /* Full Dark Background Everywhere */
   html, body {
     background-color: #0d1117 !important;
+    color: #e6edf3 !important;
   }
 
-  /* OUTER CONTAINERS (Slate uses these) */
-  .outer, .wrap, .container, .site, .page-content {
+  /* Header Area (Fix top white strip) */
+  .page-header, .site-header, .header, .masthead, .wrapper {
+    background-color: #0d1117 !important;
+    border: none !important;
+  }
+
+  /* Outer shell */
+  .outer, .wrap, .page-content, .site, .container {
     background-color: #0d1117 !important;
   }
 
-  /* MAIN CONTENT AREA */
+  /* Main content box */
   .inner, .markdown-body, .container-lg {
     background-color: #161b22 !important;
     color: #e6edf3 !important;
     border: none !important;
   }
 
-  /* TEXT COLORS */
-  body, p, div, li {
+  /* Text */
+  p, li, div, span {
     color: #e6edf3 !important;
   }
 
-  /* HEADINGS */
+  /* Headings */
   h1, h2, h3, h4 {
     color: #58a6ff !important;
     border-bottom: none !important;
   }
 
-  /* LINKS */
+  /* Links */
   a {
     color: #79c0ff !important;
   }
@@ -40,19 +47,21 @@
     color: #a5d6ff !important;
   }
 
-  /* HR */
+  /* Divider lines */
   hr {
     border: none !important;
-    background: #30363d !important;
     height: 1px;
+    background: #30363d !important;
   }
 
-  /* IMAGES — clean edges */
+  /* Images (make sure logo is visible) */
   img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: none !important;
   }
 </style>
-
 
 <h1 align="center" style="color:#003366; font-size: 36px; margin-bottom:0;">
   Silver Leaf University – Faculty & Student Portal
