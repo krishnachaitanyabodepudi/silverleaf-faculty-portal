@@ -249,7 +249,7 @@ Below are the two Loom videos that walk through the portal, the workflows, and t
 #### **Project Walkthrough – Part 1**
 
 <iframe 
-  src="https://www.loom.com/embed/b6724a2f4ce4469192720fa2fe27cad9"
+  src="https://www.loom.com/embed/b394a6d672544c3781d50854da318dd9"
   width="100%" 
   height="400" 
   frameborder="0" 
@@ -261,7 +261,7 @@ Below are the two Loom videos that walk through the portal, the workflows, and t
 #### **Project Walkthrough using LM STUDIO – Part 2**
 
 <iframe 
-  src="https://www.loom.com/embed/b394a6d672544c3781d50854da318dd9"
+  src="https://www.loom.com/embed/b6724a2f4ce4469192720fa2fe27cad9"
   width="100%" 
   height="400" 
   frameborder="0" 
