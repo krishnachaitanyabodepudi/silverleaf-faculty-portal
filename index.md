@@ -115,7 +115,7 @@ Supports:
 # <span style="color:#003366;">Enterprise Architecture</span>
 
 <p align="center">
-  <img src="/assets/architecture.png" width="720">
+  <img src="/assets/Architectures.png" width="720">
 </p>
 
 ### <span style="color:#008060;">Business Architecture</span>
