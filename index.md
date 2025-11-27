@@ -169,69 +169,100 @@ Supports:
 
 ---
 
-# <span style="color:#003366;">Dashboard</span>
+## <span style="color:#003366;">Dashboard & Data Analysis</span>
 
-The dashboard includes:
-- Submission analytics  
-- Assignments per course  
-- Faculty workload  
-- Student performance indicators  
-- AI feedback visibility  
-- Timeline of submissions  
+Our dashboard is designed to give a quick, straightforward view of what’s happening inside each course. We didn’t overcomplicate it — the goal was to help faculty and students find the most important information without clicking through multiple screens.
 
+### <span style="color:#008060;">What You Can See on the Dashboard</span>
+
+- **Assignments Overview**  
+  Faculty can see all assignments created for their courses at a glance.
+
+- **Submission Status**  
+  The dashboard shows how many students submitted, who is pending, and whether any submissions were late.
+
+- **AI Feedback Visibility**  
+  Whenever Gemini generates draft feedback for a PDF submission, faculty can quickly spot which assignments already have AI feedback and which ones still need review.
+
+- **Student View**  
+  Students get a clean timeline of:
+  - Upcoming deadlines  
+  - Past submissions  
+  - Course announcements  
+  - Feedback (AI + faculty review)
+
+### <span style="color:#008060;">Why the Dashboard Matters</span>
+Instead of jumping between emails, PDFs, or multiple URLs, everything related to a course is visible in one place. This saves time for faculty and reduces confusion for students.
+
+### <span style="color:#008060;">Live Portal (Vercel Deployment)</span>
+You can explore the working portal here:
+
+🔗 **Live Prototype:**  
+https://faculty-portal-mrp.vercel.app
+
+This live link demonstrates the entire workflow — assignments, submissions, dashboard analytics, and the AI features we built into the platform.
+# <span style="color:#003366;">Ethical & Social Considerations</span>
+
+Ethical thinking was part of our project from the very beginning. Since we are using AI in an academic environment, we made sure our design respects fairness, privacy, and transparency at every stage.
+
+### <span style="color:#008060;">Bias Mitigation</span>
+All AI-generated feedback is reviewed by faculty before being shared with students. This keeps grading fair and prevents the AI from making decisions on its own.
+
+### <span style="color:#008060;">Transparency</span>
+Whenever AI assists in generating feedback or responses, the system makes it clear. Faculty always know which parts came from the model and which parts were added manually.
+
+### <span style="color:#008060;">Privacy Protection</span>
+To keep student data safe, we support running the AI locally using **LM Studio**, which ensures that submissions and text never leave the university’s environment. No external data sharing occurs during local execution.
+
+### <span style="color:#008060;">Accessibility</span>
+We kept the interface clean and straightforward so both faculty and students can use it comfortably, regardless of technical experience. The portal design supports inclusive access for different user needs.
+
+### <span style="color:#008060;">Compliance</span>
+The system design aligns with important academic and legal frameworks, including **FERPA**, **GDPR**, and Silver Leaf University’s internal AI policy. This ensures our solution remains responsible and institution-ready.
+
+Overall, the portal incorporates fairness, accountability, and explainability into the way it works, making the use of AI supportive — not risky — in a real academic setting.
+# <span style="color:#003366;">Lessons Learned & Team Reflection</span>
+
+### <span style="color:#008060;">Team Reflection</span>
+
+Throughout this semester, our team got hands-on experience with real AI product development — not just the technical side, but also the research, design, and ethical thinking that go into building an academic tool. We realized very early that supporting faculty with AI isn’t just about writing code. It requires trust, clear communication, and a design that respects how instructors actually work.
+
+Working together helped us refine our ideas, test different approaches, and find a balance between what is innovative and what is actually practical. We also learned that good technology decisions come from understanding real user needs — not from following trends.
+
+Overall, this project gave us a stronger appreciation for how AI can responsibly support higher education when it's designed carefully, transparently, and with the end users truly in mind.
+# <span style="color:#003366;">Appendix</span>
+
+### <span style="color:#008060;">GitHub Repository</span>
+
+Here is the full codebase for our Master’s Research Project, including the frontend, backend, dataset files, and the AI integration workflow.
+
+🔗 **GitHub Repository:**  
+https://github.com/krishnachaitanyabodepudi/faculty-Portal-MRP
 
 ---
 
-<span style="color:#003366;">Ethical & Social Considerations</span>
-<span style="color:#008060;">Bias & Fairness</span>
+### <span style="color:#008060;">Project Walkthrough Videos</span>
 
-Faculty oversee all AI outputs
+Below are the two Loom videos that walk through the portal, the workflows, and the AI components. These videos show how the system works end-to-end, including assignment posting, student submissions, and the AI feedback flow.
 
-Transparent indicators for AI usage
+#### **Project Walkthrough – Part 1**
 
-<span style="color:#008060;">Privacy & Security</span>
+<iframe 
+  src="https://www.loom.com/embed/b6724a2f4ce4469192720fa2fe27cad9"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
 
-Local LM Studio avoids external data sharing
+<br><br>
 
-Secure data storage
+#### **Project Walkthrough using LM STUDIO – Part 2**
 
-<span style="color:#008060;">Accessibility</span>
-
-Clear UI
-
-Consistent workflows
-
-<span style="color:#008060;">Governance</span>
-
-FERPA & GDPR guidelines
-
-Institution-specific AI policies
-
-<span style="color:#003366;">Outcomes, Impact & Next Steps</span>
-<span style="color:#008060;">Impact</span>
-
-Faster grading
-
-Reduced faculty workload
-
-Improved clarity and student learning
-
-AI-ready institutional environment
-
-<span style="color:#008060;">Next Steps</span>
-
-Pilot testing
-
-Full deployment
-
-Faculty & student training
-
-LMS integration
-
-Extended analytics
-
-<span style="color:#003366;">Team Reflection</span>
-
-Our team learned academic AI design, ethical guidelines, system architecture, research analysis, and the importance of aligning technology with real educational needs. We developed collaboration, communication, and system-level thinking skills while preparing Silverleaf University for an AI-enabled future.
-  <source src="/assets/explain.mp4" type="video/mp4">
-</video>
+<iframe 
+  src="https://www.loom.com/embed/b394a6d672544c3781d50854da318dd9"
+  width="100%" 
+  height="400" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
