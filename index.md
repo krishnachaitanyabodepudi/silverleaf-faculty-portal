@@ -115,7 +115,7 @@ Supports:
 # <span style="color:#003366;">Enterprise Architecture</span>
 
 <p align="center">
-  <img src="/assets/Architectures.png" width="720">
+  <img src="assets/Architectures.png" width="720">
 </p>
 
 ### <span style="color:#008060;">Business Architecture</span>
@@ -137,7 +137,7 @@ Supports:
 # <span style="color:#003366;">Data Design</span>
 
 <p align="center">
-  <img src="/assets/data-flow.png" width="720">
+  <img src="assets/data-flow.png" width="720">
 </p>
 
 ### <span style="color:#008060;">Data Flow</span>
@@ -154,7 +154,7 @@ Supports:
 # <span style="color:#003366;">Entity Relationship Diagram (ERD)</span>
 
 <p align="center">
-  <img src="/assets/erd.png" width="720">
+  <img src="assets/erd.png" width="720">
 </p>
 
 ### <span style="color:#008060;">Entities</span>
