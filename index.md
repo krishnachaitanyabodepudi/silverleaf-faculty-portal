@@ -2,6 +2,36 @@
 <p align="center">
   <img src="assets/Logo.png" width="350">
 </p>
+<style>
+  body {
+    background-color: #0d1117 !important;
+    color: #e6edf3 !important;
+  }
+
+  .inner, .container, .markdown-body {
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+    border: none !important;
+  }
+
+  h1, h2, h3, h4 {
+    color: #58a6ff !important;
+  }
+
+  a {
+    color: #79c0ff !important;
+  }
+
+  hr {
+    border: none !important;
+    background: #30363d !important;
+    height: 1px;
+  }
+
+  img {
+    border: none !important;
+  }
+</style>
 
 <h1 align="center" style="color:#003366; font-size: 36px; margin-bottom:0;">
   Silver Leaf University – Faculty & Student Portal
