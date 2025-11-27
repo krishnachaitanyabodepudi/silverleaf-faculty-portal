@@ -1,7 +1,3 @@
-
-<p align="center">
-  <img src="assets/Logo.png" width="350">
-</p>
 <style>
   body {
     background-color: #0d1117 !important;
@@ -32,6 +28,10 @@
     border: none !important;
   }
 </style>
+<p align="center">
+  <img src="assets/Logo.png" width="350">
+</p>
+
 
 <h1 align="center" style="color:#003366; font-size: 36px; margin-bottom:0;">
   Silver Leaf University – Faculty & Student Portal
