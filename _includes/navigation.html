@@ -1,0 +1,12 @@
+<nav>
+  <div class="container">
+    <ul>
+      {% for item in site.navigation %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+

@@ -1,0 +1,35 @@
+title: "Silverleaf University Faculty Portal"
+description: "A comprehensive full-stack faculty portal built with React, Node.js, and AI-powered assistance using Google Gemini"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Site settings
+url: "https://krishnachaitanyabodepudi.github.io"
+baseurl: "/silverleaf-faculty-portal"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Executive Summary
+    url: /executive-summary
+  - title: Problem Context
+    url: /problem-context
+  - title: Research & Insights
+    url: /research-insights
+  - title: Proposed Solution
+    url: /proposed-solution
+  - title: Project Charter
+    url: /project-charter
+  - title: Architecture
+    url: /architecture
+  - title: Dashboard
+    url: /dashboard
+  - title: Ethical Considerations
+    url: /ethical-considerations
+  - title: Lessons Learned
+    url: /lessons-learned
+  - title: Appendix
+    url: /appendix
