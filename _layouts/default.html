@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+</head>
+<body>
+    {% unless page.title == "Home - Silver Leaf University Faculty Portal" %}
+    <nav class="nav-container">
+        <div class="nav-menu">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="executive-summary.html" class="nav-link">Executive Summary</a>
+            <a href="problem-context.html" class="nav-link">Problem Context</a>
+            <a href="research-insights.html" class="nav-link">Research & Insights</a>
+            <a href="proposed-solution.html" class="nav-link">Proposed Solution</a>
+            <a href="project-charter.html" class="nav-link">Project Charter</a>
+            <a href="architecture.html" class="nav-link">Architecture</a>
+            <a href="dashboard.html" class="nav-link">Dashboard</a>
+            <a href="ethical-considerations.html" class="nav-link">Ethical Considerations</a>
+            <a href="lessons-learned.html" class="nav-link">Lessons Learned</a>
+            <a href="appendix.html" class="nav-link">Appendix</a>
+        </div>
+    </nav>
+    {% endunless %}
+    {{ content }}
+</body>
+</html>
+
