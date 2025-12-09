@@ -6,63 +6,74 @@ title: Dashboard & Data Analysis
 <div class="content-section">
   <h1 class="section-title">Dashboard & Data Analysis</h1>
   
-  <p>Our dashboard is designed to give a quick, straightforward view of what's happening inside each course. We didn't overcomplicate it — the goal was to help faculty and students find the most important information without clicking through multiple screens.</p>
+  <p>A single, course-aware view for faculty and students to act fast without hopping between PDFs, emails, and folders.</p>
   
-  <h2 class="subsection-title">What You Can See on the Dashboard</h2>
+  <h2 class="subsection-title">What's on the Dashboard</h2>
   
   <div class="info-box">
-    <h3 class="subsubsection-title">Assignments Overview</h3>
-    <p>Faculty can see all assignments created for their courses at a glance.</p>
+    <h3 class="subsubsection-title">Assignments at a Glance</h3>
+    <p>Every assignment per course, one view.</p>
   </div>
   
   <div class="info-box">
     <h3 class="subsubsection-title">Submission Status</h3>
-    <p>The dashboard shows how many students submitted, who is pending, and whether any submissions were late.</p>
+    <p>Submitted vs. pending vs. late, per assignment.</p>
   </div>
   
   <div class="info-box">
     <h3 class="subsubsection-title">AI Feedback Visibility</h3>
-    <p>Whenever Gemini generates draft feedback for a PDF submission, faculty can quickly spot which assignments already have AI feedback and which ones still need review.</p>
+    <p>Which submissions have Gemini draft feedback and which still need faculty review.</p>
+  </div>
+  
+  <div class="info-box">
+    <h3 class="subsubsection-title">Announcements</h3>
+    <p>Course-specific posts from faculty.</p>
+  </div>
+  
+  <div class="info-box">
+    <h3 class="subsubsection-title">Messaging</h3>
+    <p>In-app mail (compose + recent messages) for faculty and students.</p>
   </div>
   
   <div class="info-box">
     <h3 class="subsubsection-title">Student View</h3>
-    <p>Students get a clean timeline of:</p>
-    <ul>
-      <li>Upcoming deadlines</li>
-      <li>Past submissions</li>
-      <li>Course announcements</li>
-      <li>Feedback (AI + faculty review)</li>
-    </ul>
+    <p>Timeline of upcoming deadlines, past submissions, announcements, and available feedback (AI + faculty review).</p>
   </div>
   
-  <h2 class="subsection-title">Why the Dashboard Matters</h2>
+  <h2 class="subsection-title">Why It Matters</h2>
   
-  <p>Instead of jumping between emails, PDFs, or multiple URLs, everything related to a course is visible in one place. This saves time for faculty and reduces confusion for students.</p>
+  <ul>
+    <li>Cuts context-switching and surfaces at-risk or pending submissions quickly.</li>
+    <li>Shows where AI has pre-drafted feedback, so grading moves faster while faculty stay in control.</li>
+    <li>Keeps students clear on deadlines, announcements, and feedback status.</li>
+  </ul>
   
-  <h2 class="subsection-title">Live Portal (Vercel Deployment)</h2>
+  <h2 class="subsection-title">Live Dashboard</h2>
   
-  <p>You can explore the working portal here:</p>
+  <p>Explore the working portal (assignments, submissions, AI feedback, announcements, messaging):</p>
   
-  <a href="https://faculty-portal-mrp.vercel.app" class="dashboard-link" target="_blank">🔗 Live Prototype: Faculty Portal</a>
+  <a href="https://faculty-portal-mrp.vercel.app" class="dashboard-link" target="_blank">🔗 https://faculty-portal-mrp.vercel.app</a>
   
-  <p>This live link demonstrates the entire workflow — assignments, submissions, dashboard analytics, and the AI features we built into the platform.</p>
-  
-  <h2 class="subsection-title">Key Insights from Dashboard</h2>
+  <h2 class="subsection-title">Key Insights You Can Read Off the Dashboard</h2>
   
   <div class="info-box">
-    <h3 class="subsubsection-title">Submission Analytics</h3>
-    <p>The dashboard provides real-time visibility into submission rates, helping faculty identify students who may need additional support or reminders. The visual representation of submission status enables quick decision-making.</p>
+    <h3 class="subsubsection-title">Submission Coverage</h3>
+    <p>Who submitted, who's pending/late—target reminders quickly.</p>
   </div>
   
   <div class="info-box">
-    <h3 class="subsubsection-title">Feedback Efficiency</h3>
-    <p>By tracking AI-generated feedback alongside faculty reviews, the dashboard highlights the time-saving benefits of the AI assistance, showing how preliminary feedback accelerates the grading process.</p>
+    <h3 class="subsubsection-title">AI Feedback Progress</h3>
+    <p>Which submissions already have AI drafts vs. those awaiting review.</p>
   </div>
   
   <div class="info-box">
-    <h3 class="subsubsection-title">Course Performance Overview</h3>
-    <p>Faculty can monitor overall course engagement through the dashboard, identifying trends in submission patterns and feedback completion rates across all their assigned courses.</p>
+    <h3 class="subsubsection-title">Engagement Signals</h3>
+    <p>Courses/assignments with low submission activity to flag early.</p>
+  </div>
+  
+  <div class="info-box">
+    <h3 class="subsubsection-title">Feedback Completion</h3>
+    <p>Where faculty review is still needed after AI drafts.</p>
   </div>
 </div>
 
