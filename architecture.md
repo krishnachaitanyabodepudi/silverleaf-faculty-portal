@@ -9,7 +9,7 @@ title: Architecture & Data Design
   <h2 class="subsection-title">Entity Relationship Diagram (ERD)</h2>
   
   <div class="image-container">
-    <img src="assets/ERD.png" alt="Entity Relationship Diagram">
+    <img src="assets/erd.png" alt="Entity Relationship Diagram">
   </div>
   
   <div class="info-box">
