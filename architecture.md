@@ -429,7 +429,7 @@ title: Architecture & Data Design
   <h2 class="subsection-title">Data Flow</h2>
   
   <div class="image-container">
-    <img src="assets/data-flow.png" alt="Data Flow Diagram">
+    <img src="assets/Data-Flow-Diagram.png" alt="Data Flow Diagram">
   </div>
   
   <div class="info-box">
